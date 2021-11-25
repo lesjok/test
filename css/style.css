@@ -1,0 +1,39 @@
+.block {
+  border: 1px solid #000;
+  min-height: 100px;
+  width: 516px;
+}
+.block-1 {
+  width: 100%;
+}
+#block-left {
+  background-color: #672885;
+}
+#block-center {
+  border: 1px dashed #000;
+  background-color: #c9da35;
+}
+#block-right {
+  background-color: #1abbc7;
+}
+.btn-first {
+  background-color: yellow;
+}
+.btn-second {
+  background-color: green;
+}
+.hidden {
+  display: none;
+}
+.translate-left {
+  transform: translateX(440px);
+}
+.translate-center {
+  transform: translateX(-440px);
+}
+@media (max-width: 576px) {
+  .row:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+}
